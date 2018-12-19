@@ -13,26 +13,26 @@ The output for `lintDebug` task with plugin `3.3.0-alpha03` is:
 
 ```
 A_KotlinClass
- * field1
+ * field
    - org.jetbrains.annotations.NotNull
    - com.example.lintsample.A_JavaAnnotation
    - com.example.lintsample.A_KotlinAnnotation
    - com.example.annotations.ExternalKotlinAnnotation
 
 A_JavaClass
- * field1
+ * field
    - com.example.lintsample.A_JavaAnnotation
    - com.example.lintsample.A_KotlinAnnotation
    - com.example.annotations.ExternalKotlinAnnotation
 
 B_JavaClass
- * field1
+ * field
    - com.example.lintsample.B_JavaAnnotation
    - com.example.lintsample.B_KotlinAnnotation
    - com.example.annotations.ExternalKotlinAnnotation
 
 B_KotlinClass
- * field1
+ * field
    - org.jetbrains.annotations.NotNull
    - com.example.lintsample.B_JavaAnnotation
    - com.example.lintsample.B_KotlinAnnotation
@@ -45,26 +45,26 @@ But with `3.3.0-alpha04` the behavior is different:
 
 ```
 A_KotlinClass
- * field1
+ * field
    - org.jetbrains.annotations.NotNull
    - com.example.lintsample.A_JavaAnnotation
    - com.example.lintsample.A_KotlinAnnotation
    - com.example.annotations.ExternalKotlinAnnotation
 
 A_JavaClass
- * field1
+ * field
    - com.example.lintsample.A_JavaAnnotation
    - com.example.lintsample.A_KotlinAnnotation
    - com.example.annotations.ExternalKotlinAnnotation
 
 B_JavaClass
- * field1
+ * field
    - com.example.lintsample.B_JavaAnnotation
    - com.example.lintsample.B_KotlinAnnotation
    - ExternalKotlinAnnotation
 
 B_KotlinClass
- * field1
+ * field
    - org.jetbrains.annotations.NotNull
    - com.example.lintsample.B_JavaAnnotation
    - com.example.lintsample.B_KotlinAnnotation

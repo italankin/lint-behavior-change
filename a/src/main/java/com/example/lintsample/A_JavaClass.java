@@ -7,5 +7,5 @@ public class A_JavaClass {
     @A_JavaAnnotation
     @A_KotlinAnnotation
     @ExternalKotlinAnnotation
-    public int field1;
+    public int field;
 }

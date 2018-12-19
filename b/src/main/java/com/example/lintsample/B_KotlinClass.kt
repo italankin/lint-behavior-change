@@ -7,5 +7,5 @@ class B_KotlinClass {
     @B_JavaAnnotation
     @B_KotlinAnnotation
     @ExternalKotlinAnnotation
-    lateinit var field1: String
+    lateinit var field: String
 }
