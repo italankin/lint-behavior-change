@@ -8,10 +8,4 @@ public class B_JavaClass {
     @B_KotlinAnnotation
     @ExternalKotlinAnnotation
     public int field1;
-
-    @B_JavaAnnotation
-    public int field2;
-
-    @B_KotlinAnnotation
-    public int field3;
 }
