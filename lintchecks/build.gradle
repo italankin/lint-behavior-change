@@ -1,0 +1,13 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    compileOnly "com.android.tools.lint:lint:$lint_version"
+}
+
+jar {
+    manifest {
+        attributes("Lint-Registry-v2": "com.example.lintchecks.MyIssueRegistry")
+    }
+}
