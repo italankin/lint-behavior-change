@@ -2,6 +2,7 @@ This sample demonstrates a behavior change in Android Lint API between Android G
 
 # Modules
 
+* `:lintchecks` - custom lint checks module
 * `:annotations` - a module which contains custom annotation class
 * `:compile_annotations` - a module which declares a `compile` dependency on `:annotations`
 * `:a` - Android app module which depends on `:compile_annotations`
